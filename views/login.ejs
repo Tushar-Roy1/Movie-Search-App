@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Login and Registration Form</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="../stylesheets/login.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+      <div class="mb-3">
+        
+        <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
+        <box-icon type='solid' name='user'></box-icon>
+      </div>
+      <div class="mb-3">
+        <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="register">
+     <p>Don't have Account?<a href="/signup">signup</a></p>
+    </div>
+  </div>
+ 
+</body>
+
+</html>
+
+</html>
